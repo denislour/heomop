@@ -1,28 +1,28 @@
 <script lang="ts">
-	import type {Theme} from '../../../types'
-	import {setTheme, theme} from '$lib/stores/theme'
-	import YouTubeIcon from '$lib/icons/youtube.svg'
-	import ThemeToggleIcon from './ThemeToggleIcon.svelte'
-	import Profile from './Profile/Profile.svelte'
+	import type {Theme} from "../../../types";
+	import {setTheme, theme} from "$lib/stores/theme";
+	import YouTubeIcon from "$lib/icons/youtube.svg";
+	import ThemeToggleIcon from "./ThemeToggleIcon.svelte";
+	import Profile from "./Profile/Profile.svelte";
 
-	let previousY: number
-	let currentY: number
-	let clientHeight: number
+	let previousY: number;
+	let currentY: number;
+	let clientHeight: number;
 
 	const deriveDirection = (y: number) => {
-		const direction = !previousY || previousY < y ? 'down' : 'up'
-		previousY = y
+		const direction = !previousY || previousY < y ? "down" : "up";
+		previousY = y;
 
-		return direction
-	}
+		return direction;
+	};
 
-	$: scrollDirection = deriveDirection(currentY)
-	$: offscreen = scrollDirection === 'down' && currentY > clientHeight * 4
+	$: scrollDirection = deriveDirection(currentY);
+	$: offscreen = scrollDirection === "down" && currentY > clientHeight * 4;
 
-	$: nextTheme = ($theme === 'dark' ? 'light' : 'dark') as Theme
+	$: nextTheme = ($theme === "dark" ? "light" : "dark") as Theme;
 	const handleThemeIconClick = () => {
-		setTheme(nextTheme)
-	}
+		setTheme(nextTheme);
+	};
 </script>
 
 <svelte:window bind:scrollY={currentY} />
@@ -36,7 +36,7 @@
 		<a href="/" class="mr-4 text-2xl font-thin md:mr-8">Heo mop</a>
 		<ul class="mr-4 flex flex-grow items-center gap-4 md:gap-8">
 			<li>
-				<a href="/learn">Learn</a>
+				<a href="/quotes">Quotes</a>
 			</li>
 			<li>
 				<a href="/about">About</a>
