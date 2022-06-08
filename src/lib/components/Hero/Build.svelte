@@ -1,8 +1,8 @@
 <script lang="ts">
-	export let className: string | null = null
+	export let className: string | null = null;
 </script>
 
-<svg
+ss<svg
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 989.077 690.29"
 	class={className}

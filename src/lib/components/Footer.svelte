@@ -17,7 +17,7 @@
 		<YouTubeIcon title="Johnny's YouTube channel" class="w-5" />
 	</a>
 	<a
-		href="https://github.com/jmagrippis/with-svelte"
+		href="https://github.com/jmagrippis/heomop"
 		target="_blank"
 		rel="noopener noreferrer"
 		aria-label="checkout the source code at the github repo"

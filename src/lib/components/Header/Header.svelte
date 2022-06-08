@@ -33,7 +33,7 @@
 	bind:clientHeight
 >
 	<nav class="flex flex-grow">
-		<a href="/" class="mr-4 text-2xl font-thin md:mr-8">With Svelte</a>
+		<a href="/" class="mr-4 text-2xl font-thin md:mr-8">Heo mop</a>
 		<ul class="mr-4 flex flex-grow items-center gap-4 md:gap-8">
 			<li>
 				<a href="/learn">Learn</a>

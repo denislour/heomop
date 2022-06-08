@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Learn | With Svelte</title>
+	<title>Learn | Heo mop</title>
 </svelte:head>
 
 <section class="container flex-grow px-2 md:px-0">

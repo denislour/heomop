@@ -41,7 +41,7 @@
 </script>
 
 <svelte:head>
-	<title>Login | With Svelte</title>
+	<title>Login | Heo mop</title>
 </svelte:head>
 
 <section class="container flex-grow px-2 text-2xl md:px-0">
@@ -66,7 +66,7 @@
 					name="email"
 					type="email"
 					aria-label="email"
-					placeholder="example@with-svelte.com"
+					placeholder="example@heomop.com"
 					required
 				/>
 				<BigButton>send magic link</BigButton>

@@ -1,5 +1,5 @@
 ---
-title: Server-Side Rendered Dark Mode with SvelteKit & Cookies
+title: Server-Side Rendered Dark Mode Heo mopKit & Cookies
 date: 2022-01-16T12:08:00.000Z
 videoUrl: https://www.youtube.com/watch?v=5A21S5mMijI
 ---

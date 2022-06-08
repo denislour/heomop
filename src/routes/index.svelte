@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Hero from '$lib/components/Hero/Hero.svelte'
+	import Hero from "$lib/components/Hero/Hero.svelte";
 </script>
 
 <svelte:head>
-	<title>With Svelte: Learn how to do fullstack with Svelte!</title>
+	<title>Heo mop's Diary</title>
 </svelte:head>
 
 <main>

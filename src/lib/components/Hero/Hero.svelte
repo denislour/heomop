@@ -1,6 +1,6 @@
 <script lang="ts">
-	import BigLink from '../buttons/BigLink.svelte'
-	import HeroIcon from '$lib/icons/hero.svg'
+	import BigLink from "../buttons/BigLink.svelte";
+	import HeroIcon from "$lib/icons/hero.svg";
 </script>
 
 <section
@@ -10,8 +10,8 @@
 		class="mb-8 text-center text-xl md:col-span-5 md:mb-0 md:self-center md:text-left md:text-2xl"
 	>
 		<div class="mb-2 text-5xl lg:text-6xl">
-			<div>Build apps</div>
-			<div class="font-thin text-prime">With Svelte</div>
+			<div>Con🐷</div>
+			<div class="font-thin text-prime">Heo mop</div>
 		</div>
 		<p class="mb-6 text-copy-muted">
 			Turn your ideas into realities using the framework with <a
@@ -21,10 +21,12 @@
 				aria-label="State of JS 2020 for frontend applications"
 			>
 				the highest developer satisfaction</a
-			>!
+			>
 		</p>
 		<p class="text-center">
-			<BigLink href="/learn" prefetch={true}>Start Learning!</BigLink>
+			<BigLink href="/learn" prefetch={true}
+				>Check out the latest quotes!</BigLink
+			>
 		</p>
 	</div>
 	<aside class="md:col-span-7"><HeroIcon class="w-full" /></aside>
