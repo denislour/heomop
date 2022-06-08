@@ -10,7 +10,7 @@
 		class="mb-8 text-center text-xl md:col-span-5 md:mb-0 md:self-center md:text-left md:text-2xl"
 	>
 		<div class="mb-2 text-5xl lg:text-6xl">
-			<div>Con🐷</div>
+			<div>Con</div>
 			<div class="font-thin text-prime">Heo mop</div>
 		</div>
 		<p class="mb-6 text-copy-muted">

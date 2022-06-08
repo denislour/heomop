@@ -5,7 +5,7 @@ export type Quote = {
 };
 
 class QuotesRepo {
-	getAll = async () => [
+	#quotes = [
 		{
 			name: "Diary one",
 			emoji: "☕",
@@ -25,6 +25,7 @@ class QuotesRepo {
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis natus tempora. Inventore odio rem similique, quisquam fugit voluptates hic alias nemo sequi. Illum nulla atque nostrum, ea ipsum corporis.",
 		},
 	];
+	getAll = async ({limit}: {limit: number}) => this.#quotes.slice(0, limit);
 }
 
 export const quotesRepo = new QuotesRepo();
