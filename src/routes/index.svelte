@@ -18,7 +18,7 @@
 </script>
 
 <script lang="ts">
-	import Biglink from "$lib/components/buttons/Biglink.svelte";
+	import Biglink from "$lib/components/buttons/BigLink.svelte";
 	import Hero from "$lib/components/Hero/Hero.svelte";
 	import QuoteCard from "$lib/components/QuoteCard.svelte";
 	import type {Quote} from "$lib/repos/quotesRepo";
