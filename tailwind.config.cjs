@@ -1,35 +1,35 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 const withOpacityValue =
 	(varName) =>
 	({opacityValue}) =>
 		opacityValue === undefined
 			? `hsl(var(--${varName}))`
-			: `hsla(var(--${varName}) / ${opacityValue})`
+			: `hsla(var(--${varName}) / ${opacityValue})`;
 
 module.exports = {
-	darkMode: 'class',
-	content: ['./src/**/*.{html,css,svelte}'],
+	darkMode: "class",
+	content: ["./src/**/*.{html,css,svelte}"],
 	theme: {
 		colors: {
-			primary: colors.rose,
+			primary: colors.purple,
 			secondary: colors.emerald,
-			prime: withOpacityValue('prime-color'),
+			prime: withOpacityValue("prime-color"),
 			copy: {
-				base: withOpacityValue('copy-base-color'),
-				muted: withOpacityValue('copy-muted-color'),
+				base: withOpacityValue("copy-base-color"),
+				muted: withOpacityValue("copy-muted-color"),
 			},
 			surface: {
-				1: withOpacityValue('surface-1-color'),
+				1: withOpacityValue("surface-1-color"),
 			},
 			gray: colors.stone,
 			white: colors.white,
-			transparent: 'transparent',
-			current: 'currentColor',
+			transparent: "transparent",
+			current: "currentColor",
 		},
 		fontFamily: {
-			sans: ['Overpass', 'sans-serif'],
-			code: ['Fira Code', 'monospace'],
+			sans: ["Overpass", "sans-serif"],
+			code: ["Fira Code", "monospace"],
 		},
 		fontWeight: {
 			thin: 100,
@@ -40,5 +40,5 @@ module.exports = {
 		},
 		extend: {},
 	},
-	plugins: [require('@tailwindcss/typography')],
-}
+	plugins: [require("@tailwindcss/typography")],
+};

@@ -1,7 +1,7 @@
 export type Quote = {
 	name: string;
 	emoji: string;
-	descripstion: string;
+	description: string;
 };
 
 class QuotesRepo {
@@ -9,17 +9,20 @@ class QuotesRepo {
 		{
 			name: "Diary one",
 			emoji: "☕",
-			descripstion: "Coffee's times",
+			description:
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis natus tempora. Inventore odio rem similique, quisquam fugit voluptates hic alias nemo sequi. Illum nulla atque nostrum, ea ipsum corporis.",
 		},
 		{
 			name: "Diary two",
 			emoji: "🐱‍💻",
-			descripstion: "Supar dougggggg!",
+			description:
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis natus tempora. Inventore odio rem similique, quisquam fugit voluptates hic alias nemo sequi. Illum nulla atque nostrum, ea ipsum corporis.",
 		},
 		{
 			name: "Diary two",
 			emoji: "🐷",
-			descripstion: "Con heo mop ngowwwwwwww!",
+			description:
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis natus tempora. Inventore odio rem similique, quisquam fugit voluptates hic alias nemo sequi. Illum nulla atque nostrum, ea ipsum corporis.",
 		},
 	];
 }
