@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BigLink from "../buttons/BigLink.svelte";
+	import BigLink from "$lib/components/buttons/BigLink.svelte";
 	import HeroIcon from "$lib/icons/hero.svg";
 </script>
 
